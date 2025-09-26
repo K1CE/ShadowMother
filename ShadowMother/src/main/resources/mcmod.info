@@ -1,0 +1,16 @@
+[
+{
+  "modid": "subyin",
+  "name": "Shadow Mother",
+  "description": "A forgotten ritual offers the benefits of life for the trade of death. Join its family, child. The dark will watch over you.",
+  "version": "0.4.2",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["KICE"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

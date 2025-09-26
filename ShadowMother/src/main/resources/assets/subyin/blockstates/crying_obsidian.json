@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "crying=true": { "model": "subyin:crying_obsidian" },
+        "crying=false": { "model": "subyin:crying_obsidian_active" }
+    }
+}

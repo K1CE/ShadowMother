@@ -1,0 +1,20 @@
+{
+    "parent": "block/block",
+    "textures": {
+    	"wall": "subyin:blocks/crying_catalyst"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "shade":false,
+            "faces": {
+                "down":  { "texture": "wall", "cullface": "down" },
+                "up":    { "texture": "wall", "cullface": "up" },
+                "north": { "texture": "wall", "cullface": "north" },
+                "south": { "texture": "wall", "cullface": "south" },
+                "west":  { "texture": "wall", "cullface": "west" },
+                "east":  { "texture": "wall", "cullface": "east" }
+            }
+        }
+    ]
+}
