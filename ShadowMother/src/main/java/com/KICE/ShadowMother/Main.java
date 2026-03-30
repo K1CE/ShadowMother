@@ -1,6 +1,8 @@
 /*    */ package com.KICE.ShadowMother;
 /*    */ 
 /*    */ import com.KICE.ShadowMother.proxy.CommonProxy;
+import com.KICE.ShadowMother.util.handlers.RegistryHandler;
+
 /*    */ import net.minecraftforge.fml.common.Mod;
 /*    */ import net.minecraftforge.fml.common.Mod.EventHandler;
 /*    */ import net.minecraftforge.fml.common.Mod.Instance;
@@ -23,6 +25,8 @@
 /*    */   @EventHandler
 /*    */   public static void PreInit(FMLPreInitializationEvent event) {
 /* 25 */     proxy.preInit();
+
+		     RegistryHandler.preInitRegistries();
 /*    */   }
 /*    */   
 /*    */   @EventHandler

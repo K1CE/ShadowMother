@@ -12,6 +12,8 @@ public class Reference {
   public static final String CLIENT_PROXY_CLASS = "com.KICE.ShadowMother.proxy.ClientProxy";
   
   public static final String COMMON_PROXY_CLASS = "com.KICE.ShadowMother.proxy.CommonProxy";
+  
+  public static final int CRYING_OBSIDIAN_GOLEM = 250;
 }
 
 

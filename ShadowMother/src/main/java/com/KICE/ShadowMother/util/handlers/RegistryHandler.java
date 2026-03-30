@@ -2,6 +2,7 @@
 /*    */ 
 /*    */ import com.KICE.ShadowMother.init.ModBlocks;
 /*    */ import com.KICE.ShadowMother.init.ModItems;
+/*    */ import com.KICE.ShadowMother.init.ModEntities;
 /*    */ import com.KICE.ShadowMother.tileentity.CryingCircle;
 /*    */ import com.KICE.ShadowMother.util.IHasModel;
 /*    */ import net.minecraft.block.Block;
@@ -41,6 +42,15 @@
 /* 41 */         ((IHasModel)block).registerModels(); 
 /*    */     } 
 /*    */   }
+
+			public static void preInitRegistries() {
+				ModEntities.registerEntities();
+				RenderHandler.registerEntityRenders();
+			}
+
+			public static void postInitRegistries() {
+				
+			}
 /*    */ }
 
 
